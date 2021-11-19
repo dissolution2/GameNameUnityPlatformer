@@ -14,7 +14,11 @@ TagManager:
   - 
   - 
   - PostProcessing
+  - Ground
+  - Damageable
+  - Dead
   - Player
+  - BackGround
   - Platforms
   - Walls
   - Traps
@@ -33,13 +37,15 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
   m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: BackGround
     uniqueID: 2726270565
+    locked: 0
+  - name: Decorations
+    uniqueID: 678185223
     locked: 0
   - name: Walls
     uniqueID: 4663779
@@ -47,12 +53,15 @@ TagManager:
   - name: Platform
     uniqueID: 4020219807
     locked: 0
+  - name: Enemy
+    uniqueID: 793092383
+    locked: 0
   - name: Player
     uniqueID: 1373974501
     locked: 0
   - name: Foreground
     uniqueID: 661725939
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: ForgroundDecoration
+    uniqueID: 3552164199
     locked: 0
